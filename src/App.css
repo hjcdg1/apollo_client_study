@@ -1,0 +1,40 @@
+body {
+  background-color: #eee;
+}
+
+header {
+  height: 64px;
+  background-color: white;
+  line-height: 64px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0 24px;
+  font-size: 26px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+nav ul li.on,
+nav ul li:hover {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+main {
+  overflow: hidden;
+  height: calc(100vh - 64px);
+}
