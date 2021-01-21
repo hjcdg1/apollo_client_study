@@ -141,7 +141,7 @@ function Teams() {
       <ul>
         {data.teams.map(({ id, manager, members }) =>
           <li key={id}>
-            <span className="teamItemTitle" onClick={() => { setContentId(id) }}>
+            <span className="teamItemTitle" onClick={() => setContentId(id)}>
               Team {id} : {manager}'s
             </span>
             <ul className="teamMembers">
